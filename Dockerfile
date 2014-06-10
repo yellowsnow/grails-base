@@ -4,7 +4,7 @@ WORKDIR /opt/grails
 
 ADD grails /opt/grails
 
-SOURCE /etc/environment
+RUN source /etc/environment
 
 RUN ./grailsw refresh-dependencies
 
