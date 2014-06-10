@@ -7,9 +7,7 @@ Base Docker image for grails projects that will be using the grailsw wrapper
 
 This image can be found in the repository at:
 
-```
-u.melt.sh/totem/grails-base
-```
+```yellowsnow/grails-base```
 
 ## Tags
 
@@ -18,4 +16,4 @@ The following tags are available for this image:
 
 ## Building
 
-To build this image, simply run `docker build -t u.melt.sh/totem/grails-base:<tag> .` from the root of this repository.
+To build this image, simply run `docker build -t yellowsnow/grails-base:<tag> .` from the root of this repository.
