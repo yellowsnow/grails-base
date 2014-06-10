@@ -1,10 +1,8 @@
-FROM dockeruser/oracle-java7-jdk
+FROM makuk66/docker-oracle-java7
 
 WORKDIR /opt/grails
 
 ADD grails /opt/grails
-
-RUN source /etc/environment
 
 RUN ./grailsw refresh-dependencies
 
